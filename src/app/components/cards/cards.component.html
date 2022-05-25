@@ -1,0 +1,29 @@
+<!-- <p>cards works!</p>
+<div>
+<div class="Cards"  *ngFor="let item of data ">
+  <h6>
+  {{item.itemName }}
+</h6>
+
+<img [src]= item.imageURL >
+
+
+</div>
+
+
+</div>   -->
+<div>
+<div class="card-container">
+  <div class="card" *ngFor="let item of data">
+      <h4>
+          {{item.itemName}}
+      </h4>
+  <img [src]=item.imageURL>
+  <p>
+
+      {{item.itemDescription}}
+  </p>
+  </div>
+
+  </div>
+</div>

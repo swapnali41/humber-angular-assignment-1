@@ -1,3 +1,4 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
@@ -11,6 +12,7 @@ export class ModalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   closeModal() {

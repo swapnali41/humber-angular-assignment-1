@@ -1,0 +1,39 @@
+.card-container {
+
+
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  column-gap: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .card {
+
+
+  border-radius: 20px ;
+  border: 3px solid gray;
+
+
+  min-width: 300px;
+  min-height: 250px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: auto;
+  cursor: pointer;
+
+  img {
+  width: 300px;
+  align-self: center;
+  justify-content: center;
+  }
+  }
